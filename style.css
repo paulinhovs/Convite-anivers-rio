@@ -254,3 +254,49 @@
         text-shadow: 1px 1px 2px black;
     }
 }
+
+@media (min-width:360px) and (max-width: 370px) {
+    
+    .section-space1 {
+        display: none;
+    }
+
+    .section-space1-mobile {
+        display: inline-block;
+    }
+
+    #text1-space1-mobile {
+        font-size: 20px;
+    }
+
+    #text2-space1-mobile {
+        font-size: 32px;
+    }
+
+    #text0-space2-mobile {
+        font-size: 25px;
+    }
+
+    #mapa-mobile {
+        margin-top: 10px;
+        margin-left: 10px;
+        border-radius: 5px;
+        border: 2px solid wheat;
+    }
+
+    #audio-mobile {
+        width: 250px;
+        height: 150px;
+        margin-top: -80px;
+    }
+
+    #player-audio-text {
+        font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+        color: wheat;
+        font-size: 30px;
+        margin-left: 20px;
+        margin-top: 220px;
+        text-shadow: 1px 1px 2px black;
+    }
+
+}
